@@ -10,9 +10,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <section class="intro" aria-labelledby="intro-heading">
       <h1 id="intro-heading">
-        I&rsquo;m a front-end engineer and designer. I create thoughtful digital
-        experiences with clear interfaces, strong visual systems, and careful
-        attention to detail.
+        I&rsquo;m a front-end engineer and designer. I design and build thoughtful
+        digital experiences with clear interfaces and considered details.
       </h1>
     </section>
   </main>
