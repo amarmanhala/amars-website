@@ -18,7 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <p class="role">Front-End Engineer &amp; Designer</p>
       <p class="direction">
         Turning into a Forward Deployed Engineer
-        <a class="why-link" href="/why.html">Why?</a>
+        <a class="why-link" href="/why/">Why?</a>
       </p>
     </header>
 
