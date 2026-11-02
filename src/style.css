@@ -34,6 +34,20 @@ h1 {
   min-height: 100svh;
 }
 
+.brand {
+  position: absolute;
+  top: clamp(20px, 2.5vw, 36px);
+  left: clamp(20px, 2.5vw, 36px);
+  display: block;
+  width: clamp(112px, 11vw, 165px);
+}
+
+.brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .identity {
   position: absolute;
   top: 26.4vh;
@@ -76,6 +90,10 @@ h1 {
   .intro {
     left: 24px;
     width: calc(100vw - 48px);
+  }
+
+  .brand {
+    width: 110px;
   }
 
   .identity {
