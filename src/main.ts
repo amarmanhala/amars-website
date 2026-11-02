@@ -1,4 +1,5 @@
 import '@fontsource-variable/inter'
+import '@fontsource/instrument-serif'
 import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -15,6 +16,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <header class="identity" aria-label="Introduction">
       <p class="name">Amarpreet Singh</p>
       <p class="role">Front-End Engineer &amp; Designer</p>
+      <p class="direction">
+        Turning into a Forward Deployed Engineer
+        <a class="why-link" href="/why.html">Why?</a>
+      </p>
     </header>
 
     <section class="intro" aria-labelledby="intro-heading">

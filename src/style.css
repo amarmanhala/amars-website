@@ -61,9 +61,19 @@ h1 {
   font-weight: 400;
 }
 
-.role {
+.role,
+.direction {
   color: #898989;
   font-weight: 400;
+}
+
+.why-link {
+  margin-left: 0.25em;
+  color: #121212;
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 1.15em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
 }
 
 .intro {
